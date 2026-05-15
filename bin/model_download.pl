@@ -11,7 +11,7 @@ use Socket;
 #    -p process "p" previous init time (default = 0)
 
 use vars qw($opt_m $opt_d $opt_n $opt_p);
-getopt('mgdnp');
+getopt('mdnp');
 
 # Define default values and over with any specified options.
 
